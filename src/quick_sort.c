@@ -20,10 +20,8 @@ void quick_sort(int A[], int n){
             j++;
         }
     }
-    
-    for(i = 1;i < j; i++){
-        A[i-1] = A[i];
-    }
+
+    A[0] = A[j-1];
     A[j-1] = pivot;
     quick_sort(A, j-1);
     quick_sort(A+j, n-j);
