@@ -43,13 +43,13 @@ int main(){
 
 /*int main(){
  int i;
- for(i = 2; i < N; i++){
  A[0] = 4;
  A[1] = 2;
- A[i] = 3;
+ for(i = 2; i < N; i++){
+    A[i] = 3;
  }
  
  for(i=0;i<N;i++){
- if(quick_select(A, N, i) != 3) printf("ERROR %d %d\n", i, quick_select(A, N, i));
+    if(quick_select(A, N, i) != 3) printf("ERROR %d %d\n", i, quick_select(A, N, i));
  }
  }*/

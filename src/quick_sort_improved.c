@@ -55,9 +55,9 @@ int main(){
 
 /*int main(){
     int i;
+    A[0] = 4;
+    A[1] = 2;
     for(i = 2; i < N; i++){
-        A[0] = 4;
-        A[1] = 2;
         A[i] = 3;
     }
     
